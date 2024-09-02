@@ -10,6 +10,7 @@ BEiT is a family of Image Transformers that during its pre-training first tokeni
 |:-----------------------------------------------------------------------------------------------------------:| 
 | *BEiT pre-training procedure (image taken from [the original paper](https://arxiv.org/abs/2106.08254))* |
 
+<br>
 
 Three variants of the model are fine-tuned and evaluated:
 
@@ -19,7 +20,7 @@ Three variants of the model are fine-tuned and evaluated:
 |  [microsoft/beit-base-patch16-224](https://huggingface.co/microsoft/microsoft/beit-base-patch16-224)  | ImageNet-21k (14m images, 21k classes, at resolution 224x224) |  ImageNet 2012 (1m images, 1k classes, at resolution 224x224)   | 
 |      [microsoft/beit-base-patch16-224-pt22k-ft22k](https://huggingface.co/microsoft/microsoft/microsoft/beit-base-patch16-224-pt22k-ft22k)       | ImageNet-21k (14m images, 21k classes, at resolution 224x224) | ImageNet-21k (14m images, 21k classes, at resolution 224x224)   | 
 
-All pre-trainings hand the images to the model in patches of size 16x16. Each model has about 86m parameters. 
+In all pre-trainings, the images were handed to the model in patches of size 16x16. Each model has a size of about 86m parameters. 
 
 <br>
 
